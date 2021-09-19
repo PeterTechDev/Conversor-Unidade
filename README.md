@@ -2,6 +2,8 @@
 
 # Seja bem-vindo!
 
-Este projeto foi desenvolvido para fazer, de maneira simples, um conversor de **libras** para **kilos**
+Este projeto foi desenvolvido para fazer, de maneira simples, um conversor de **libras** para **kilos**.
+<br>
+Para interagir com página: https://petertechdev.github.io/Conversor-Unidade/
 
-[<img src="https://user-images.githubusercontent.com/78622386/133946021-02221965-5a8d-4c48-95a9-9a019cabb22a.png">]
+<img src="https://user-images.githubusercontent.com/78622386/133946021-02221965-5a8d-4c48-95a9-9a019cabb22a.png">]
