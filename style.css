@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    background-color: #464646;
+    /* min-height: 400px; */
+    /* overflow: auto; */
+    background-image: url(assets/bg1.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    /* height: 80vh; */
+}
+
+.page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+}
+
+/* RETIRA AS SETAS DO INPUT NUMBER */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input{
+    outline: none;
+    padding: .5rem;
+    width: 40%;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 15px;
+    border:none;
+
+    margin-top: 4rem;
+}
+
+button{
+    padding: .5rem 2rem;
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+
+button:hover {
+
+}
+
+@media only screen and (min-width: 380px) {
+    input{
+        width: 15%;
+    }
+
+    .action-container{
+        margin-top: 10rem;
+    }
+
+    .container{
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+}
+
+@media only screen and (min-width: 769px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
