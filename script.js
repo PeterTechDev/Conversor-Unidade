@@ -12,7 +12,11 @@ submitBtn.addEventListener('click', () => {
     result.classList.remove('rotate')
     void result.offsetWidth;
     result.classList.add('rotate')
-    result.innerText = (entry.value * libra).toFixed(2) + "kg";
+
+    let finalValue = parseFloat((entry.value * libra).toFixed(2))
+
+    result.innerText = finalValue + "kg";
+    
     entry.value = ''
 })
 
