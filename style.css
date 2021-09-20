@@ -54,7 +54,7 @@ button{
     margin-top: 3rem;
 }
 
-#result {
+#result-container {
     margin-top: 1rem;
     display: none;
 

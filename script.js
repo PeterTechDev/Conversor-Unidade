@@ -2,22 +2,29 @@ const libra = 0.45359237
 
 let entry = document.querySelector("#kg")
 const submitBtn = document.querySelector("button")
-const kgValue = document.getElementById('kgValue')
+const result = document.getElementById('result')
+const resultContainer = document.getElementById('result-container')
 
 submitBtn.addEventListener('click', () => {
+    //Verificar se está vazio
     if (entry.value == '') {
         alert('Favor informar algum valor')
         prevantDefault()
     }
-    result.classList.remove('rotate')
-    void result.offsetWidth;
-    result.classList.add('rotate')
 
+    //Adicionar animação
+    resultContainer.classList.remove('rotate')
+    void resultContainer.offsetWidth;
+    resultContainer.classList.add('rotate')
+
+    // Realiza o calcula 
     let finalValue = parseFloat((entry.value * libra).toFixed(2))
 
-    kgValue.innerText = finalValue;
-    document.getElementById('result').style.display = 'inline-flex'
+    // Atribui o valor à div e troca o display
+    result.innerHTML = finalValue;
+    resultContainer.style.display = 'inline-flex'
     
+    // reseta o entry
     entry.value = ''
 })
 
