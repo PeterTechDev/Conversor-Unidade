@@ -2,7 +2,7 @@ const libra = 0.45359237
 
 let entry = document.querySelector("#kg")
 const submitBtn = document.querySelector("button")
-const result = document.getElementById('result')
+const kgValue = document.getElementById('kgValue')
 
 submitBtn.addEventListener('click', () => {
     if (entry.value == '') {
@@ -15,7 +15,8 @@ submitBtn.addEventListener('click', () => {
 
     let finalValue = parseFloat((entry.value * libra).toFixed(2))
 
-    result.innerText = finalValue + "kg";
+    kgValue.innerText = finalValue;
+    document.getElementById('result').style.display = 'inline-flex'
     
     entry.value = ''
 })
